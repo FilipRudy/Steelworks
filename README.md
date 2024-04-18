@@ -4,6 +4,8 @@
 
 </p>
 
+## Work in progress 🛠️
+As we are still amidst discussions to finalize the details and polish the page's appearance, this project is marked as a work in progress.
 
 ## Description
 
