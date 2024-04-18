@@ -1,0 +1,70 @@
+{
+  "header": {
+    "aboutUs": "About Us",
+    "realizations": "Realizations",
+    "offer": "Our Offer",
+    "contact": "Contact",
+    "contactInfo": "Contact Information",
+    "contactForm": "Contact Form",
+    "mainPage": "Home Page",
+    "aboutCompany": "About the Company",
+    "whyUs": "Why Steelworks?",
+    "personalizedContainers": "Customized Containers",
+    "gitterboxContainers": "Mesh Boxes",
+    "specialContainers": "Containers for Special Processes",
+    "customMadeContainers": "Custom-Made Containers",
+    "ourProducts": "Our Products",
+    "specialOrders": "Special Orders"
+  },
+  "footer": {
+    "country": "Poland",
+    "street": "St. Rolna 16"
+  },
+  "home": {
+    "heroTop1": "Steel Products Plant",
+    "heroTop2": " #1 in Silesia",
+    "hero": "Your company for the production of highest quality steel elements",
+    "heroBottom": "In the steelworks, we believe that nothing is impossible - we ensure that everything is realized as you want it.",
+    "whyUs": "Why Steelworks?",
+    "infoCardHeader1": "Highest product quality",
+    "infoCardContent1": "Our products are not only solid, but also meet the highest quality standards, ensuring you confidence and reliability.",
+    "infoCardHeader2": "Competitive prices",
+    "infoCardContent2": "Our products are not only solid, but also meet the highest quality standards, ensuring you confidence and reliability.",
+    "infoCardHeader3": "Order always ready on time",
+    "infoCardContent3": "You can always count on the timely delivery of your order, thanks to our proven logistics and punctuality in production.",
+    "productCardTop1": "Equipment for",
+    "productCardBottom1": " Forklifts",
+    "productCardTop2": "Customized",
+    "productCardBottom2": "Containers",
+    "productCardTop3": "Mesh Boxes",
+    "productCardBottom3": "",
+    "productCardTop4": "Spill Containment",
+    "productCardBottom4": "Pallets",
+    "productCardTop5": "Containers for",
+    "productCardBottom5": "Special Processes",
+    "contactHeader": "Join hundreds of satisfied customers and get in touch with us",
+    "contactContent": "We'll respond as soon as possible",
+    "contactButton": "Contact"
+  },
+  "contact-form": {
+    "header": "Contact Form",
+    "nameSurname": "Name and Surname",
+    "phone": "Phone number",
+    "email": "Email",
+    "topic": "Topic",
+    "message": "Message",
+    "send": "Send"
+  },
+  "contact-info": {
+    "header": "Contact Information",
+    "address": "Address:",
+    "street": "Ul. Kijowska 16",
+    "phoneNumbers":"Phone Numbers:",
+    "office": "Office: +48 123 456 789",
+    "orders": "Orders: +48 987 654 321",
+    "email": "Email addresses:",
+    "officeEmail": "Office: biuro@stalownia.katowice.pl",
+    "accountingDepartmentEmail": "Accounting: ksiegowosc@stalownia.katowice.pl",
+    "companyInfo": "Company Information: "
+  }
+}

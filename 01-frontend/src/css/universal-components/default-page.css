@@ -1,0 +1,21 @@
+.blocking-div {
+
+}
+
+
+
+@media screen and (min-width:1661px) {
+    .blocking-div {
+
+    }
+
+    .background {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .main-content {
+        min-width: 1460px;
+    }
+
+}

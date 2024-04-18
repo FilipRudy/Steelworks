@@ -1,0 +1,50 @@
+.info-card {
+    background-color: white;
+    border: 2px solid #545151;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px; /* Adjust width as needed */
+    height: 400px; /* Adjust height as needed */
+}
+
+.info-card-title {
+    font-family: Clash, sans-serif;
+}
+
+.info-card-message {
+    font-family: WorkSans, sans-serif;
+}
+
+
+.clash-font {
+    font-family: Clash, sans-serif;
+}
+
+.clash-medium-font {
+    font-family: ClashMedium, sans-serif;
+}
+
+.work-sans {
+    font-family: WorkSans, sans-serif;
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url('../../fonts/work-sans/WorkSans-Regular.woff2') format('woff2'),
+    url('../../fonts/work-sans/WorkSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Clash';
+    src: url('../../fonts/clash/ClashDisplay-Bold.woff2') format('woff2'),
+    url('../../fonts/clash/ClashDisplay-Bold.woff') format('woff'),
+    url('../../fonts/clash/ClashDisplay-Bold.ttf') format('truetype');
+}
+
+@font-face {
+
+    font-family: 'ClashMedium';
+    src: url('../../fonts/clash/ClashDisplay-Medium.woff2') format('woff2'),
+    url('../../fonts/clash/ClashDisplay-Medium.woff') format('woff'),
+    url('../../fonts/clash/ClashDisplay-Medium.ttf') format('truetype');
+}

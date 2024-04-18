@@ -1,0 +1,44 @@
+.navbar{
+margin-bottom: auto;
+}
+
+ul li a {
+    color: #000;
+}
+
+ul li a:hover {
+    color: #ffffff;
+}
+
+ul li a.active {
+    color: #b2e8d6;
+}
+
+
+.icon {
+    width: 150px;
+    height: 150px;
+}
+
+.dropdown-toggle {
+    background-color: #ECECEC;
+    border: #ECECEC;
+    --bs-btn-hover-bg: #c5c0c0;
+    --bs-btn-active-bg: #948888;
+    color: black;
+    font-family: 'WorkSans', sans-serif;
+    font-size: 20px;
+}
+
+.dropdown-item {
+    font-family: 'WorkSans', sans-serif;
+    color: black;
+
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url('../../fonts/work-sans/WorkSans-Regular.woff2') format('woff2'),
+    url('../../fonts/work-sans/WorkSans-Regular.ttf') format('truetype');
+}
+

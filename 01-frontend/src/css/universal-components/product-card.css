@@ -1,0 +1,12 @@
+.card-text {
+    font-family: Clash, sans-serif;
+    justify-content: center;
+}
+
+
+@font-face {
+    font-family: 'Clash';
+    src: url('../../fonts/clash/ClashDisplay-Bold.woff2') format('woff2'),
+    url('../../fonts/clash/ClashDisplay-Bold.woff') format('woff'),
+    url('../../fonts/clash/ClashDisplay-Bold.ttf') format('truetype');
+}

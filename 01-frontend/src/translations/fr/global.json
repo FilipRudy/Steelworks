@@ -1,0 +1,70 @@
+{
+  "header": {
+    "aboutUs": "À propos de nous",
+    "realizations": "Réalisations",
+    "offer": "Notre offre",
+    "contact": "Contact",
+    "contactInfo": "Coordonnées",
+    "contactForm": "Formulaire de contact",
+    "mainPage": "Page principale",
+    "aboutCompany": "À propos de l'entreprise",
+    "whyUs": "Pourquoi nous choisir ?",
+    "personalizedContainers": "Conteneurs personnalisés",
+    "gitterboxContainers": "Conteneurs Gitterbox",
+    "specialContainers": "Conteneurs spéciaux",
+    "customMadeContainers": "Conteneurs sur mesure",
+    "ourProducts": "Nos produits",
+    "specialOrders": "Commandes spéciales"
+  },
+  "footer": {
+    "country": "Pologne",
+    "street": "Rue Rolna 16"
+  },
+  "home": {
+    "heroTop1": "Usine de produits en acier",
+    "heroTop2": "#1 en Silésie",
+    "hero": "Votre entreprise de production d'éléments en acier de la plus haute qualité",
+    "heroBottom": "Dans notre usine, nous croyons qu'il n'y a rien d'impossible - nous veillons à ce que tout soit réalisé comme vous le souhaitez.",
+    "whyUs": "Pourquoi nous choisir ?",
+    "infoCardHeader1": "Qualité supérieure des produits",
+    "infoCardContent1": "Nos produits sont non seulement solides, mais répondent également aux normes de qualité les plus élevées, vous offrant ainsi confiance et fiabilité.",
+    "infoCardHeader2": "Prix compétitifs",
+    "infoCardContent2": "Nos produits sont non seulement solides, mais répondent également aux normes de qualité les plus élevées, vous offrant ainsi confiance et fiabilité.",
+    "infoCardHeader3": "Commande toujours prête à temps",
+    "infoCardContent3": "Vous pouvez toujours compter sur la livraison ponctuelle de votre commande grâce à notre logistique éprouvée et notre ponctualité dans la production.",
+    "productCardTop1": "Accessoires pour ",
+    "productCardBottom1": "chariots élévateurs",
+    "productCardTop2": "Conteneurs",
+    "productCardBottom2": "personnalisés",
+    "productCardTop3": "Conteneurs",
+    "productCardBottom3": "Gitterbox",
+    "productCardTop4": "Bacs de rétention",
+    "productCardBottom4": "",
+    "productCardTop5": "Conteneurs pour",
+    "productCardBottom5": "processus spéciaux",
+    "contactHeader": "Rejoignez des centaines de clients satisfaits et contactez-nous",
+    "contactContent": "Nous répondrons dès que possible",
+    "contactButton": "Contact"
+  },
+  "contact-form": {
+    "header": "Formulaire de contact",
+    "nameSurname": "Nom et Prénom",
+    "phone": "Téléphone",
+    "email": "Email",
+    "topic": "Sujet",
+    "message": "Message",
+    "send": "Envoyer"
+  },
+  "contact-info": {
+    "header": "Coordonnées",
+    "address": "Adresse :",
+    "street": "Rue Kijowska 16",
+    "phoneNumbers":"Numéros de téléphone :",
+    "office": "Bureau : +48 123 456 789",
+    "orders": "Commandes : +48 987 654 321",
+    "email": "Adresses e-mail :",
+    "officeEmail": "Bureau : biuro@stalownia.katowice.pl",
+    "accountingDepartmentEmail": "Comptabilité : ksiegowosc@stalownia.katowice.pl",
+    "companyInfo": "Informations sur l'entreprise : "
+  }
+}

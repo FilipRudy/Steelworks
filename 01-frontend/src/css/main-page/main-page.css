@@ -1,0 +1,208 @@
+.main-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-cards {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px; /* Adjust gap between cards */
+}
+
+.info-cards {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px; /* Adjust gap between cards */
+}
+
+.contact-title {
+    max-width: 800px;
+}
+
+.section-break {
+    min-height: 100px;
+}
+
+.contact-us-button {
+    display: flex;
+    justify-content: center;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.hero-title-upper {
+    color: #9D74C7;
+}
+
+.clash-font {
+    font-family: ClashBold, cursive;
+}
+
+.clash-medium-font {
+    font-family: ClashMedium, sans-serif;
+}
+
+.work-sans {
+    font-family: WorkSans, sans-serif;
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url('../../fonts/work-sans/WorkSans-Regular.woff2') format('woff2'),
+    url('../../fonts/work-sans/WorkSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ClashBold';
+    src: url('../../fonts/clash/ClashDisplay-Bold.woff2') format('woff2'),
+    url('../../fonts/clash/ClashDisplay-Bold.woff') format('woff'),
+    url('../../fonts/clash/ClashDisplay-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+
+    font-family: 'ClashMedium';
+    src: url('../../fonts/clash/ClashDisplay-Medium.woff2') format('woff2'),
+    url('../../fonts/clash/ClashDisplay-Medium.woff') format('woff'),
+    url('../../fonts/clash/ClashDisplay-Medium.ttf') format('truetype');
+}
+
+.hero-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.hero-content {
+    width: 50%; /* Initially full width */
+    max-width: 400px; /* Set maximum width */
+}
+
+.hero-subtitle {
+    max-width: 400px;
+}
+
+.hero-image-container {
+    width: 33%; /* Initially full width */
+    max-width: 500px; /* Set maximum width */
+}
+
+.blob-shape {
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 1400px) {
+
+    .hero-section {
+        justify-content: left;
+        max-width: none;
+    }
+    /* Adjust styles for medium and larger screens */
+    .hero-content {
+        width: 50%; /* Take up half the width on medium and larger screens */
+        max-width: none
+    }
+
+    .hero-image-container {
+        width: 33%; /* Take up half the width on medium and larger screens */
+        max-width: 500px
+    }
+
+    .blob-shape {
+        width: 150%;
+        height: auto;
+    }
+
+
+    .section-break {
+        min-height: 150px;
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1399px) {
+    /* Adjust styles for medium and larger screens */
+    .hero-section {
+        justify-content: left;
+        max-width: none;
+    }
+
+    .hero-content {
+        width: 50%; /* Take up half the width on medium and larger screens */
+        max-width: none
+    }
+
+    .hero-image-container {
+        width: 33%; /* Take up half the width on medium and larger screens */
+        max-width: 500px
+    }
+
+    .blob-shape {
+        width: 150%;
+        height: auto;
+    }
+}
+@media (min-width: 900px) and (max-width: 1099px) {
+    /* Adjust styles for medium and larger screens */
+    .hero-section {
+        justify-content: left;
+        max-width: none;
+    }
+
+    .hero-content {
+        width: 50%; /* Take up half the width on medium and larger screens */
+        max-width: none
+    }
+
+    .hero-image-container {
+        width: 30%; /* Take up half the width on medium and larger screens */
+        max-width: none
+    }
+
+    .blob-shape {
+        width: 150%;
+        height: auto;
+    }
+}
+@media (max-width: 899px) {
+    /* Adjust styles for medium and larger screens */
+    .hero-content {
+        width: 100%; /* Take up half the width on medium and larger screens */
+        justify-content: center;
+
+    }
+
+    .hero-image-container {
+        width: 100%;
+        justify-content: center;
+    }
+
+
+    .hero-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blob-shape {
+        visibility: hidden;
+    }
+
+    .hero-image-container {
+        width: 0; /* Take up half the width on medium and larger screens */
+        height: 0;
+        visibility: hidden;
+    }
+}

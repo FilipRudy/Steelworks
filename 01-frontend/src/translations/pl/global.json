@@ -1,0 +1,70 @@
+{
+  "header": {
+    "aboutUs": "O nas",
+    "realizations": "Realizacje",
+    "offer": "Nasza oferta",
+    "contact": "Kontakt",
+    "contactInfo": "Dane kontaktowe",
+    "contactForm": "Formularz kontaktowy",
+    "mainPage": "Strona główna",
+    "aboutCompany": "O firmie",
+    "whyUs": "Dlaczego Stalownia?",
+    "personalizedContainers": "Pojemniki personalizowane",
+    "gitterboxContainers": "Pojemniki gitterbox",
+    "specialContainers": "Pojemniki do procesów specjalnych",
+    "customMadeContainers": "Pojemniki na zamówienie",
+    "ourProducts": "Nasze produkty",
+    "specialOrders": "Zamówienia specjalne"
+  },
+  "footer": {
+    "country": "Polska",
+    "street": "Ul. Rolna 16"
+  },
+  "home": {
+    "heroTop1": "Zakład wyrobów stalowych",
+    "heroTop2": " #1 na Śląsku",
+    "hero": "Twoja firma od produkcji najwyższej jakości elementów stalowych",
+    "heroBottom": "W stalowni wierzymy że nie ma rzeczy niemożliwych - dbamy o to żeby wszystko zostało zrealizowane tak jak ty tego chcesz",
+    "whyUs": "Dlaczego stalownia?",
+    "infoCardHeader1": "Najwyższa jakość produktów",
+    "infoCardContent1": "Nasze wyroby są nie tylko solidne, ale również spełniają najwyższe standardy jakości, zapewniając Ci pewność i niezawodność.",
+    "infoCardHeader2": "Konkurencyjne ceny",
+    "infoCardContent2": "Nasze wyroby są nie tylko solidne, ale również spełniają najwyższe standardy jakości, zapewniając Ci pewność i niezawodność.",
+    "infoCardHeader3": "Zlecenie gotowe zawsze na czas",
+    "infoCardContent3": "Zawsze możesz liczyć na terminowe dostarczenie Twojego zlecenia dzięki naszej sprawdzonej logistyce i punktualności w produkcji.",
+    "productCardTop1": "Osprzęt do wózków",
+    "productCardBottom1": "widłowych",
+    "productCardTop2": "Pojemniki",
+    "productCardBottom2": "personalizowane",
+    "productCardTop3": "Pojemniki",
+    "productCardBottom3": "gitterbox",
+    "productCardTop4": "Wanny wychwytowe",
+    "productCardBottom4": "",
+    "productCardTop5": "Pojemniki do",
+    "productCardBottom5": "procesów specjalnych",
+    "contactHeader": "Dołącz do setek zadowolonych klientów i skontaktuj się z nami",
+    "contactContent": "Odpowiemy najszybciej jak to możliwe",
+    "contactButton": "Kontakt"
+  },
+  "contact-form": {
+    "header": "Formularz kontaktowy",
+    "nameSurname": "Imię i Nazwisko",
+    "phone": "Telefon",
+    "email": "Email",
+    "topic": "Temat",
+    "message": "Wiadomość",
+    "send": "Wyślij"
+  },
+  "contact-info": {
+    "header": "Dane kontaktowe",
+    "address": "Adres:",
+    "street": "Ul. Kijowska 16",
+    "phoneNumbers":"Numery telefonów:",
+    "office": "Biuro: +48 123 456 789",
+    "orders": "Zlecenia: +48 987 654 321",
+    "email": "Adresy e-mail:",
+    "officeEmail": "Biuro: biuro@stalownia.katowice.pl",
+    "accountingDepartmentEmail": "Księgowość: ksiegowosc@stalownia.katowice.pl",
+    "companyInfo": "Dane spółki: "
+  }
+}

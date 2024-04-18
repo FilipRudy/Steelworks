@@ -1,0 +1,70 @@
+{
+  "header": {
+    "aboutUs": "Über uns",
+    "realizations": "Realisierungen",
+    "offer": "Unser Angebot",
+    "contact": "Kontakt",
+    "contactInfo": "Kontaktinformationen",
+    "contactForm": "Kontaktformular",
+    "mainPage": "Startseite",
+    "aboutCompany": "Über das Unternehmen",
+    "whyUs": "Warum Stahlwerk?",
+    "personalizedContainers": "Maßgeschneiderte Behälter",
+    "gitterboxContainers": "Gitterboxen",
+    "specialContainers": "Behälter für spezielle Prozesse",
+    "customMadeContainers": "Maßgeschneiderte Behälter",
+    "ourProducts": "Unsere Produkte",
+    "specialOrders": "Sonderbestellungen"
+  },
+  "footer": {
+    "country": "Polen",
+    "street": "Straße Rolna 16"
+  },
+  "home": {
+    "heroTop1": "Stahlproduktionsanlage",
+    "heroTop2": " Nr. 1 in Schlesien",
+    "hero": "Ihr Unternehmen für die Herstellung hochwertiger Stahlelemente",
+    "heroBottom": "In der Stahlproduktion glauben wir, dass nichts unmöglich ist - wir achten darauf, dass alles so realisiert wird, wie Sie es wollen.",
+    "whyUs": "Warum Stahlwerk?",
+    "infoCardHeader1": "Höchste Produktqualität",
+    "infoCardContent1": "Unsere Produkte sind nicht nur solide, sondern erfüllen auch höchste Qualitätsstandards, um Ihnen Sicherheit und Zuverlässigkeit zu garantieren.",
+    "infoCardHeader2": "Wettbewerbsfähige Preise",
+    "infoCardContent2": "Unsere Produkte sind nicht nur solide, sondern erfüllen auch höchste Qualitätsstandards, um Ihnen Sicherheit und Zuverlässigkeit zu garantieren.",
+    "infoCardHeader3": "Immer rechtzeitig fertig",
+    "infoCardContent3": "Sie können sich immer auf die pünktliche Lieferung Ihrer Bestellung verlassen, dank unserer bewährten Logistik und Produktionspünktlichkeit.",
+    "productCardTop1": "Ausrüstung für",
+    "productCardBottom1": " Gabelstapler",
+    "productCardTop2": "Maßgeschneiderte",
+    "productCardBottom2": "Behälter",
+    "productCardTop3": "Gitterboxen",
+    "productCardBottom3": "",
+    "productCardTop4": "Auffangwannen",
+    "productCardBottom4": "",
+    "productCardTop5": "Behälter für",
+    "productCardBottom5": "spezielle Prozesse",
+    "contactHeader": "Werden Sie Teil von Hunderten zufriedener Kunden und nehmen Sie Kontakt mit uns auf",
+    "contactContent": "Wir antworten so schnell wie möglich",
+    "contactButton": "Kontakt"
+  },
+  "contact-form": {
+    "header": "Kontaktformular",
+    "nameSurname": "Name und Nachname",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "topic": "Thema",
+    "message": "Nachricht",
+    "send": "Senden"
+  },
+  "contact-info": {
+    "header": "Kontaktinformationen",
+    "address": "Adresse:",
+    "street": "Ul. Kijowska 16",
+    "phoneNumbers":"Telefonnummern:",
+    "office": "Büro: +48 123 456 789",
+    "orders": "Aufträge: +48 987 654 321",
+    "email": "E-Mail-Adressen:",
+    "officeEmail": "Büro: biuro@stalownia.katowice.pl",
+    "accountingDepartmentEmail": "Buchhaltung: ksiegowosc@stalownia.katowice.pl",
+    "companyInfo": "Unternehmensinformationen: "
+  }
+}
