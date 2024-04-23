@@ -6,6 +6,7 @@ import {MainPage} from "./layouts/main-page/main-page";
 import ContactForm from "./layouts/contact/contact-form";
 import ContactInfo from "./layouts/contact/contact-info";
 import Footer from "./layouts/footer-header/footer";
+import GitterboxContainers from "./layouts/products/gitterbox-containers";
 
 export const App = () => {
   return (
@@ -18,6 +19,7 @@ export const App = () => {
                   <Route path="/" element={<MainPage/>}/>
                   <Route path="/kontakt" element={<ContactInfo/>}/>
                   <Route path="/formularz" element={<ContactForm/>}/>
+                  <Route path="/gitterbox" element={<GitterboxContainers/>}/>
 
               </Routes>
               <Footer/>

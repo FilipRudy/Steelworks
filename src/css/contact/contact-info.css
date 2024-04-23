@@ -14,6 +14,8 @@
     background-color: #ffffff;
     border: 1px solid #545151;
     border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+
 }
 
 .map-card iframe {

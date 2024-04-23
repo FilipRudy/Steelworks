@@ -1,0 +1,99 @@
+.product-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.product-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.product-section-left img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    border: 1px solid #545151;
+    border-radius: 10px;
+}
+
+.product-section-right img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    border: 1px solid #545151;
+    border-radius: 10px;
+}
+
+.contact-title {
+    max-width: 800px;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-us-button {
+    display: flex;
+    justify-content: center;
+}
+
+.section-break {
+    min-height: 100px;
+}
+
+.hidden-product {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+
+.product-to-hide {
+    visibility: visible;
+}
+
+@media (max-width: 900px) {
+    .product-section {
+        flex-direction: column;
+    }
+
+    .product-section-left img {
+        margin-bottom: 20px;
+        margin-right: 0;
+
+    }
+
+    .product-section-right img {
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+    .hidden-product {
+        height: initial;
+        width: initial;
+        visibility: visible;
+    }
+
+    .product-to-hide {
+        visibility: hidden;
+        height: 0;
+        width: 0;
+    }
+}
+
+.work-sans {
+    font-family: WorkSans, sans-serif;
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url('../../fonts/work-sans/WorkSans-Regular.woff2') format('woff2'),
+    url('../../fonts/work-sans/WorkSans-Regular.ttf') format('truetype');
+}

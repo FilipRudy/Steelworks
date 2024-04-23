@@ -1,11 +1,10 @@
-import React, {useEffect, useState, useTransition} from "react";
+import React, {useEffect, useState} from "react";
 import "../../css/footer-header/header.css";
 import {NavLink} from "react-router-dom";
 import stalownia from "../../images/stalownia.png";
 
 import {Dropdown} from "react-bootstrap";
 import i18next from "i18next";
-import i18n from "i18next";
 import {useTranslation} from "react-i18next";
 export const Navbar = () => {
   const [t, i18n] = useTranslation("global");
@@ -95,7 +94,7 @@ export const Navbar = () => {
 
                 <Dropdown.Menu>
                   <Dropdown.Item href="#/action-1">{t("header.personalizedContainers") }</Dropdown.Item>
-                  <Dropdown.Item href="#/action-2">{t("header.gitterboxContainers") }</Dropdown.Item>
+                  <Dropdown.Item href="gitterbox">{t("header.gitterboxContainers") }</Dropdown.Item>
                   <Dropdown.Item href="#/action-3">{t("header.specialContainers") }</Dropdown.Item>
                   <Dropdown.Item href="#/action-4">{t("header.customMadeContainers") }</Dropdown.Item>
                 </Dropdown.Menu>

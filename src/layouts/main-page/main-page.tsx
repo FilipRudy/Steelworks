@@ -2,6 +2,9 @@ import React, {useEffect} from "react";
 import "../../css/main-page/main-page.css";
 import forkImage from "../../images/fork.jpg";
 import weldImage from "../../images/spaw.jpg";
+import plch from "../../images/plch.jpg";
+import plch1 from "../../images/plch1.jpg";
+import plch2 from "../../images/plch2.jpg";
 import ProductCard from "../universal-components/product-card";
 import InfoCard from "../universal-components/info-card";
 import Button from "../universal-components/button";
@@ -81,9 +84,9 @@ export const MainPage = () => {
                 <div className="product-cards work-sans">
                     <ProductCard message={t("home.productCardTop1")} path={"/"} imagePath={forkImage} bottomMessage={t("home.productCardBottom1")}/>
                     <ProductCard message={t("home.productCardTop2")} path={"/"} imagePath={weldImage} bottomMessage={t("home.productCardBottom2")}/>
-                    <ProductCard message={t("home.productCardTop3")} path={"/"} imagePath={weldImage} bottomMessage={t("home.productCardBottom3")}/>
-                    <ProductCard message={t("home.productCardTop4")} path={"/"} imagePath={weldImage} bottomMessage={t("home.productCardBottom4")}/>
-                    <ProductCard message={t("home.productCardTop5")} path={"/"} imagePath={weldImage} bottomMessage={t("home.productCardBottom5")}/>
+                    <ProductCard message={t("home.productCardTop3")} path={"/"} imagePath={plch} bottomMessage={t("home.productCardBottom3")}/>
+                    <ProductCard message={t("home.productCardTop4")} path={"/"} imagePath={plch1} bottomMessage={t("home.productCardBottom4")}/>
+                    <ProductCard message={t("home.productCardTop5")} path={"/"} imagePath={plch2} bottomMessage={t("home.productCardBottom5")}/>
                 </div>
             </div>
 
