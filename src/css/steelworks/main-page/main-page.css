@@ -9,7 +9,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 40px; /* Adjust gap between cards */
+    gap: 40px;
 }
 
 .info-cards {
@@ -17,7 +17,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 40px; /* Adjust gap between cards */
+    gap: 40px;
 }
 
 .contact-title {
@@ -55,15 +55,15 @@
 
 @font-face {
     font-family: 'WorkSans';
-    src: url('../../fonts/work-sans/WorkSans-Regular.woff2') format('woff2'),
-    url('../../fonts/work-sans/WorkSans-Regular.ttf') format('truetype');
+    src: url('../../../fonts/work-sans/WorkSans-Regular.woff2') format('woff2'),
+    url('../../../fonts/work-sans/WorkSans-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'ClashBold';
-    src: url('../../fonts/clash/ClashDisplay-Bold.woff2') format('woff2'),
-    url('../../fonts/clash/ClashDisplay-Bold.woff') format('woff'),
-    url('../../fonts/clash/ClashDisplay-Bold.ttf') format('truetype');
+    src: url('../../../fonts/clash/ClashDisplay-Bold.woff2') format('woff2'),
+    url('../../../fonts/clash/ClashDisplay-Bold.woff') format('woff'),
+    url('../../../fonts/clash/ClashDisplay-Bold.ttf') format('truetype');
     font-weight: 700;
     font-display: swap;
     font-style: normal;
@@ -72,9 +72,9 @@
 @font-face {
 
     font-family: 'ClashMedium';
-    src: url('../../fonts/clash/ClashDisplay-Medium.woff2') format('woff2'),
-    url('../../fonts/clash/ClashDisplay-Medium.woff') format('woff'),
-    url('../../fonts/clash/ClashDisplay-Medium.ttf') format('truetype');
+    src: url('../../../fonts/clash/ClashDisplay-Medium.woff2') format('woff2'),
+    url('../../../fonts/clash/ClashDisplay-Medium.woff') format('woff'),
+    url('../../../fonts/clash/ClashDisplay-Medium.ttf') format('truetype');
 }
 
 .hero-section {
@@ -86,8 +86,8 @@
 }
 
 .hero-content {
-    width: 50%; /* Initially full width */
-    max-width: 400px; /* Set maximum width */
+    width: 50%;
+    max-width: 400px;
 }
 
 .hero-subtitle {
@@ -95,8 +95,8 @@
 }
 
 .hero-image-container {
-    width: 33%; /* Initially full width */
-    max-width: 500px; /* Set maximum width */
+    width: 33%;
+    max-width: 500px;
 }
 
 .blob-shape {
@@ -110,14 +110,14 @@
         justify-content: left;
         max-width: none;
     }
-    /* Adjust styles for medium and larger screens */
+
     .hero-content {
-        width: 50%; /* Take up half the width on medium and larger screens */
+        width: 50%;
         max-width: none
     }
 
     .hero-image-container {
-        width: 33%; /* Take up half the width on medium and larger screens */
+        width: 33%;
         max-width: 500px
     }
 
@@ -133,19 +133,18 @@
 }
 
 @media (min-width: 1100px) and (max-width: 1399px) {
-    /* Adjust styles for medium and larger screens */
     .hero-section {
         justify-content: left;
         max-width: none;
     }
 
     .hero-content {
-        width: 50%; /* Take up half the width on medium and larger screens */
+        width: 50%;
         max-width: none
     }
 
     .hero-image-container {
-        width: 33%; /* Take up half the width on medium and larger screens */
+        width: 33%;
         max-width: 500px
     }
 
@@ -155,19 +154,18 @@
     }
 }
 @media (min-width: 900px) and (max-width: 1099px) {
-    /* Adjust styles for medium and larger screens */
     .hero-section {
         justify-content: left;
         max-width: none;
     }
 
     .hero-content {
-        width: 50%; /* Take up half the width on medium and larger screens */
+        width: 50%;
         max-width: none
     }
 
     .hero-image-container {
-        width: 30%; /* Take up half the width on medium and larger screens */
+        width: 30%;
         max-width: none
     }
 
@@ -177,9 +175,8 @@
     }
 }
 @media (max-width: 899px) {
-    /* Adjust styles for medium and larger screens */
     .hero-content {
-        width: 100%; /* Take up half the width on medium and larger screens */
+        width: 100%;
         justify-content: center;
 
     }
@@ -201,7 +198,7 @@
     }
 
     .hero-image-container {
-        width: 0; /* Take up half the width on medium and larger screens */
+        width: 0;
         height: 0;
         visibility: hidden;
     }

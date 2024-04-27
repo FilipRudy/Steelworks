@@ -63,8 +63,14 @@
     "office": "Biuro: +48 123 456 789",
     "orders": "Zlecenia: +48 987 654 321",
     "email": "Adresy e-mail:",
-    "officeEmail": "Biuro: biuro@stalownia.katowice.pl",
-    "accountingDepartmentEmail": "Księgowość: ksiegowosc@stalownia.katowice.pl",
+    "officeEmail": "Biuro: ",
+    "accountingDepartmentEmail": "Księgowość: ",
     "companyInfo": "Dane spółki: "
+  },
+  "main-page-global": {
+    "automotive": "Branża automotive",
+    "hotel-industry": "Branża hotelarska",
+    "hero": "Stalownia - twój partner w biznesie od elementów stalowych",
+    "hero-bottom": "Nie ma dla nas zlecenia którego byśmy nie wykonali"
   }
 }

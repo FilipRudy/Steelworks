@@ -1,11 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../../css/universal-components/product-card.css";
+import "../../../css/universal-components/product-card.css";
 
 class ProductCard extends React.Component<{ message: string, path: string, imagePath: string, bottomMessage?: string }> {
     render() {
         const { message, path, imagePath, bottomMessage } = this.props;
-        // Generate unique IDs
         const filterId = `imageFilter_${Math.random().toString(36).substr(2, 9)}`;
         const linearGradientId = `paint0_linear_${Math.random().toString(36).substr(2, 9)}`;
         const patternId = `image_${Math.random().toString(36).substr(2, 9)}`;
@@ -22,7 +21,6 @@ class ProductCard extends React.Component<{ message: string, path: string, image
                         style={{filter: "drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))"}}
                     >
                         <defs>
-                            {/* Use dynamic IDs */}
                             <filter id={filterId}>
                                 <feColorMatrix
                                     type="matrix"
@@ -77,9 +75,7 @@ class ProductCard extends React.Component<{ message: string, path: string, image
                             strokeOpacity="1"
                             strokeWidth="2"
                         />
-                        {/* Light gray stripe */}
                         <rect x="0" y="122" width="384" height="96" fill="rgba(234, 234, 234, 0.5)"/>
-                        {/* Message */}
                         {bottomMessage ? (
                             <>
                                 <text x="192" y="150" fill="#FFFFFF" textAnchor="middle" dominantBaseline="middle" fontSize="31" className={"card-text"}>

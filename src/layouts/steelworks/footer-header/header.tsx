@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
-import "../../css/footer-header/header.css";
+import "../../../css/steelworks/footer-header/header.css";
 import {NavLink} from "react-router-dom";
-import stalownia from "../../images/stalownia.png";
+import stalownia from "../../../images/stalownia.png";
 
 import {Dropdown} from "react-bootstrap";
 import i18next from "i18next";
@@ -94,7 +94,7 @@ export const Navbar = () => {
 
                 <Dropdown.Menu>
                   <Dropdown.Item href="#/action-1">{t("header.personalizedContainers") }</Dropdown.Item>
-                  <Dropdown.Item href="gitterbox">{t("header.gitterboxContainers") }</Dropdown.Item>
+                  <Dropdown.Item href="/automotive/gitterbox">{t("header.gitterboxContainers") }</Dropdown.Item>
                   <Dropdown.Item href="#/action-3">{t("header.specialContainers") }</Dropdown.Item>
                   <Dropdown.Item href="#/action-4">{t("header.customMadeContainers") }</Dropdown.Item>
                 </Dropdown.Menu>
@@ -107,8 +107,8 @@ export const Navbar = () => {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                  <Dropdown.Item href="/kontakt">{t("header.contactInfo") }</Dropdown.Item>
-                  <Dropdown.Item href="/formularz">{t("header.contactForm") }</Dropdown.Item>
+                  <Dropdown.Item href="/automotive/kontakt">{t("header.contactInfo") }</Dropdown.Item>
+                  <Dropdown.Item href="/automotive/formularz">{t("header.contactForm") }</Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
             </li>

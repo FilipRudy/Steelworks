@@ -66,5 +66,11 @@
     "officeEmail": "Büro: biuro@stalownia.katowice.pl",
     "accountingDepartmentEmail": "Buchhaltung: ksiegowosc@stalownia.katowice.pl",
     "companyInfo": "Unternehmensinformationen: "
+  },
+  "main-page-global": {
+    "automotive": "Automobilindustrie",
+    "hotel-industry": "Hotelbranche",
+    "hero": "Schmiede - Ihr Geschäftspartner für Stahlelemente",
+    "hero-bottom": "Es gibt keinen Auftrag, den wir nicht ausführen können"
   }
 }

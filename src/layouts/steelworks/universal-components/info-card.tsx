@@ -1,7 +1,7 @@
 import React from "react";
-import "../../css/universal-components/info-card.css";
+import "../../../css/universal-components/info-card.css";
 
-class InfoCard extends React.Component<{ title: any, message: any }> {
+class InfoCard extends React.Component<{ title: never, message: never }> {
     render() {
         const {title, message} = this.props;
         return (

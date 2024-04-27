@@ -66,5 +66,11 @@
     "officeEmail": "Office: biuro@stalownia.katowice.pl",
     "accountingDepartmentEmail": "Accounting: ksiegowosc@stalownia.katowice.pl",
     "companyInfo": "Company Information: "
+  },
+  "main-page-global": {
+    "automotive": "Automotive Industry",
+    "hotel-industry": "Hotel Industry",
+    "hero": "Forge - your business partner for steel elements",
+    "hero-bottom": "There's no job we can't handle"
   }
 }

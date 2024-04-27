@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: stretch; /* Stretch items to equal height */
+    align-items: stretch;
     margin-top: 20px;
 }
 
@@ -30,7 +30,7 @@
 
 @media (max-width: 767px) {
     .contact-info-card {
-        margin-bottom: 20px; /* Add margin between stacked cards */
+        margin-bottom: 20px;
 
     }
 
@@ -54,15 +54,17 @@
 @media (min-width: 768px) {
     .contact-info-card,
     .map-card {
-        width: calc(50% - 20px); /* Adjust width as needed */
-        margin-top: 0; /* Remove top margin */
+        width: calc(50% - 20px);
+        margin-top: 0;
     }
 }
 
 
 @media (max-width: 400px) {
     .contact-info-card {
-        margin-bottom: 20px; /* Add margin between stacked cards */
+        margin-bottom: 20px;
+        max-width: 95.046875vw;
+
     }
 
     .map-card iframe {
@@ -81,13 +83,13 @@
 
 @font-face {
     font-family: 'WorkSans';
-    src: url('../../fonts/work-sans/WorkSans-Regular.woff2') format('woff2'),
-    url('../../fonts/work-sans/WorkSans-Regular.ttf') format('truetype');
+    src: url('../../../fonts/work-sans/WorkSans-Regular.woff2') format('woff2'),
+    url('../../../fonts/work-sans/WorkSans-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Clash';
-    src: url('../../fonts/clash/ClashDisplay-Bold.woff2') format('woff2'),
-    url('../../fonts/clash/ClashDisplay-Bold.woff') format('woff'),
-    url('../../fonts/clash/ClashDisplay-Bold.ttf') format('truetype');
+    src: url('../../../fonts/clash/ClashDisplay-Bold.woff2') format('woff2'),
+    url('../../../fonts/clash/ClashDisplay-Bold.woff') format('woff'),
+    url('../../../fonts/clash/ClashDisplay-Bold.ttf') format('truetype');
 }

@@ -1,0 +1,120 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.hero-section-global {
+    margin-bottom: 20px;
+}
+
+.hero-contact-global {
+    justify-content: center;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.image-block {
+    position: relative;
+    margin: 0 10px 20px;
+    cursor: pointer;
+    overflow: hidden;
+    width: 45%;
+    min-height: 200px;
+}
+
+.image-block::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: opacity 0.3s ease;
+    border-radius: 10px;
+    z-index: 1;
+    opacity: 1;
+}
+
+.image-block::after {
+    content: attr(data-message);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Clash, sans-serif;
+    z-index: 2;
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .image-block {
+        width: 90%;
+        height: 200px;
+    }
+
+    .image-block::after {
+        font-size: 18px;
+    }
+}
+
+.image-block:hover::before,
+.image-block:hover::after {
+    opacity: 0;
+}
+
+.image-block::before,
+.image-block::after {
+    transition: opacity 0.3s ease;
+}
+
+.image-block::before::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 10px;
+    background-color: #ccc;
+    z-index: 3;
+    opacity: 1;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    z-index: 4;
+    transition: filter 0.3s ease;
+}
+
+@font-face {
+    font-family: 'Clash';
+    src: url('../../fonts/clash/ClashDisplay-Bold.woff2') format('woff2'),
+    url('../../fonts/clash/ClashDisplay-Bold.woff') format('woff'),
+    url('../../fonts/clash/ClashDisplay-Bold.ttf') format('truetype');
+}
+
+.work-sans {
+    font-family: WorkSans, sans-serif;
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url('../../fonts/work-sans/WorkSans-Regular.woff2') format('woff2'),
+    url('../../fonts/work-sans/WorkSans-Regular.ttf') format('truetype');
+}

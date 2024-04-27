@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import "../../css/contact/contact-form.css";
+import "../../../css/steelworks/contact/contact-form.css";
 import Button from "../universal-components/button";
 import {useTranslation} from "react-i18next";
 
@@ -28,7 +28,6 @@ const ContactForm = () => {
 
     const handleSubmit = (e: { preventDefault: () => void; }) => {
         e.preventDefault();
-        console.log(formData);
         setFormData({
             fullName: "",
             phone: "",
@@ -102,7 +101,7 @@ const ContactForm = () => {
                     </div>
                 </form>
             </div>
-            <div className="center-button"> {/* Center the button */}
+            <div className="center-button">
                 <Button message={t("contact-form.send") } onClick={handleSubmit}/>
             </div>
             <div className={"section-break"}></div>
