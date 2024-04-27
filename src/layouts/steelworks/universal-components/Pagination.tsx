@@ -33,7 +33,7 @@ export const Pagination: React.FC<PaginationProps> = ({ postsPerPage, totalPosts
                     <a onClick={handlePrevClick} href='#' className='page-link'>{"<"}</a>
                 </li>
                 {pageNumbers.map(number => (
-                    <li key={number} className={`page-item ${currentPage === number ? "active" : ''}`}>
+                    <li key={number} className={`page-item ${currentPage === number ? "active" : ""}`}>
                         <a onClick={() => paginate(number)} href='#' className='page-link'>
                             {number}
                         </a>

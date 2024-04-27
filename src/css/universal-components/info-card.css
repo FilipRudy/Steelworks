@@ -3,8 +3,8 @@
     border: 2px solid #545151;
     border-radius: 10px;
     padding: 20px;
-    width: 300px; /* Adjust width as needed */
-    height: 400px; /* Adjust height as needed */
+    width: 300px;
+    height: 400px;
 }
 
 .info-card-title {
