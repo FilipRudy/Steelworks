@@ -10,7 +10,7 @@ class InfoCard extends React.Component<{ title: never, message: never }> {
                     <p style={{textAlign: "center", margin: 0, fontSize: 25}}>{title}</p>
                 </div>
                 <div className={"info-card-message"}>
-                <p style={{ textAlign: "center", margin: 0 }}>{message}</p>
+                <p style={{ textAlign: "center", margin: 10 }}>{message}</p>
                 </div>
             </div>
         );
