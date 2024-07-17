@@ -21,7 +21,7 @@ const GlobalMainPage: React.FC = () => {
 
             <div className="hero-section-global">
                 <div className="hero-content-global">
-                    <h1 className="clash-font text-center hero-title">
+                    <h1 className="clash-font text-center hero-title-global">
                         {t("main-page-global.hero")}
                     </h1>
                     <p className="hero-subtitle-global text-center work-sans">

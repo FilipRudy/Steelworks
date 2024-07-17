@@ -1,0 +1,95 @@
+.contact-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.input-group {
+    flex: 0 0 calc(50% - 5px);
+}
+
+.title-break {
+    min-height: 50px;
+}
+
+.section-break {
+    min-height: 100px;
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #545151;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.input-group:first-child input {
+    margin-right: 5px;
+}
+
+.message-input {
+    width: calc(100% - 5px);
+    border-radius: 20px;
+    border: 1px solid #545151;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.submit-btn {
+    border-radius: 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+@media (min-width: 768px) {
+    .contact-form-container {
+        max-width: 600px;
+    }
+}
+
+
+.clash-font {
+    font-family: Clash, sans-serif;
+}
+
+.work-sans {
+    font-family: WorkSans, sans-serif;
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url('../../../fonts/work-sans/WorkSans-Regular.woff2') format('woff2'),
+    url('../../../fonts/work-sans/WorkSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Clash';
+    src: url('../../../fonts/clash/ClashDisplay-Bold.woff2') format('woff2'),
+    url('../../../fonts/clash/ClashDisplay-Bold.woff') format('woff'),
+    url('../../../fonts/clash/ClashDisplay-Bold.ttf') format('truetype');
+}

@@ -5,7 +5,7 @@ import stalownia from "../../../images/stalownia.png";
 import i18next from "i18next";
 import { useTranslation } from "react-i18next";
 
-export const Navbar = () => {
+export const HotelNavbar = () => {
   const [t, i18n] = useTranslation("global");
   const [dropEnd, setDropEnd] = useState(false);
 
@@ -72,43 +72,14 @@ export const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li className="nav-item dropdown-hover">
-                <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" onClick={handleDropdownClick}>
-                  {t("header.aboutUs")}
-                </a>
-                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <NavLink className="dropdown-item" to="/">{t("header.mainPage")}</NavLink>
-                  <NavLink className="dropdown-item" to="/action-2">{t("header.aboutCompany")}</NavLink>
-                  <NavLink className="dropdown-item" to="/action-3">{t("header.whyUs")}</NavLink>
-                </div>
-              </li>
-              <li className="nav-item dropdown-hover">
-                <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" onClick={handleDropdownClick}>
-                  {t("header.realizations")}
-                </a>
-                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <NavLink className="dropdown-item" to="/action-1">{t("header.ourProducts")}</NavLink>
-                  <NavLink className="dropdown-item" to="/action-2">{t("header.specialOrders")}</NavLink>
-                </div>
-              </li>
-              <li className="nav-item dropdown-hover">
-                <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" onClick={handleDropdownClick}>
-                  {t("header.offer")}
-                </a>
-                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <NavLink className="dropdown-item" to="/action-1">{t("header.personalizedContainers")}</NavLink>
-                  <NavLink className="dropdown-item" to="/automotive/gitterbox">{t("header.gitterboxContainers")}</NavLink>
-                  <NavLink className="dropdown-item" to="/action-3">{t("header.specialContainers")}</NavLink>
-                  <NavLink className="dropdown-item" to="/action-4">{t("header.customMadeContainers")}</NavLink>
-                </div>
-              </li>
+
               <li className="nav-item dropdown-hover">
                 <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" onClick={handleDropdownClick}>
                   {t("header.contact")}
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <NavLink className="dropdown-item" to="/automotive/kontakt">{t("header.contactInfo")}</NavLink>
-                  <NavLink className="dropdown-item" to="/automotive/formularz">{t("header.contactForm")}</NavLink>
+                  <NavLink className="dropdown-item" to="/hotel/kontakt">{t("header.contactInfo")}</NavLink>
+                  <NavLink className="dropdown-item" to="/hotel/formularz">{t("header.contactForm")}</NavLink>
                 </div>
               </li>
               <li className="nav-item dropdown-hover">

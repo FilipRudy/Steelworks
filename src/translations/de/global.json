@@ -63,8 +63,8 @@
     "office": "Büro: +48 123 456 789",
     "orders": "Aufträge: +48 987 654 321",
     "email": "E-Mail-Adressen:",
-    "officeEmail": "Büro: biuro@stalownia.katowice.pl",
-    "accountingDepartmentEmail": "Buchhaltung: ksiegowosc@stalownia.katowice.pl",
+    "officeEmail": "Büro: ",
+    "accountingDepartmentEmail": "Buchhaltung: ",
     "companyInfo": "Unternehmensinformationen: "
   },
   "main-page-global": {

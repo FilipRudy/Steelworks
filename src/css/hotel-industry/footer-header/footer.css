@@ -1,0 +1,70 @@
+.footer {
+    width: 100%;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.icon-footer {
+    max-width: 140px;
+    max-height: 140px;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.company-info,
+.address-info {
+    text-align: left;
+}
+
+.line-vertical {
+    border-left: 1px solid rgba(128, 128, 128, 0.5);
+    height: 100px;
+    margin-right: 10px;
+}
+
+@media (max-width: 900px) {
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .icon-footer {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+
+    .footer-text {
+        text-align: center;
+    }
+
+    .line-vertical {
+        border-top: 1px solid rgba(128, 128, 128, 0.5);
+        border-left: none;
+        height: 1px;
+        width: 80%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 0;
+
+    }
+}
+
+.work-sans {
+    font-family: WorkSans, sans-serif;
+}
+
+@font-face {
+    font-family: "WorkSans";
+    src: url("../../../fonts/work-sans/WorkSans-Regular.woff2") format("woff2"),
+    url("../../../fonts/work-sans/WorkSans-Regular.ttf") format("truetype");
+}

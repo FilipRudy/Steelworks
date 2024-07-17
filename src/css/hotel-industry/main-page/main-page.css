@@ -4,7 +4,7 @@
     align-items: center;
 }
 
-.product-cards {
+.product-cards-hotel {
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -88,12 +88,10 @@
 .hero-content {
     width: 50%;
     max-width: 400px;
-    line-height: 1.5;
 }
 
 .hero-subtitle {
     max-width: 500px;
-    margin-bottom: 0;
 }
 
 .hero-image-container {
@@ -245,8 +243,7 @@
         width: 100%;
     }
 }
-
-.product-section-main img {
+.product-section-left img {
     height: auto;
     margin-right: 20px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);

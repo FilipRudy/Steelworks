@@ -57,15 +57,15 @@
   },
   "contact-info": {
     "header": "Coordonnées",
-    "address": "Adresse :",
+    "address": "Adresse:",
     "street": "Rue Kijowska 16",
-    "phoneNumbers":"Numéros de téléphone :",
-    "office": "Bureau : +48 123 456 789",
-    "orders": "Commandes : +48 987 654 321",
-    "email": "Adresses e-mail :",
-    "officeEmail": "Bureau : biuro@stalownia.katowice.pl",
-    "accountingDepartmentEmail": "Comptabilité : ksiegowosc@stalownia.katowice.pl",
-    "companyInfo": "Informations sur l'entreprise : "
+    "phoneNumbers":"Numéros de téléphone:",
+    "office": "Bureau: +48 123 456 789",
+    "orders": "Commandes: +48 987 654 321",
+    "email": "Adresses e-mail:",
+    "officeEmail": "Bureau: ",
+    "accountingDepartmentEmail": "Comptabilité: ",
+    "companyInfo": "Informations sur l'entreprise: "
   },
   "main-page-global": {
   "automotive": "Industrie automobile",
