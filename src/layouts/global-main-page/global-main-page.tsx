@@ -17,7 +17,6 @@ const GlobalMainPage: React.FC = () => {
 
     return (
         <div className="main-container">
-            <div className={"section-break"}></div>
 
             <div className="hero-section-global">
                 <div className="hero-content-global">
